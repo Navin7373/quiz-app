@@ -51,7 +51,7 @@ function Quiz() {
     try {
 
       await axios.post(
-        "http://localhost:5000/api/results/save",
+        "https://quiz-app-oq7l.onrender.com/api/results/save",
 
         {
 
