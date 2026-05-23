@@ -120,7 +120,7 @@ function Signup() {
 
             color: {
 
-              value: "#0f172a",
+              value: "#e8f2fc",
 
             },
 
@@ -194,7 +194,7 @@ function Signup() {
 
             color: {
 
-              value: "#ffffff",
+              value: "#64748b",
 
             },
 
@@ -202,7 +202,7 @@ function Signup() {
 
             links: {
 
-              color: "#ffffff",
+              color: "#64748b",
 
               distance: 150,
 

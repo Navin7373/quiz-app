@@ -128,7 +128,7 @@ function Login() {
 
             color: {
 
-              value: "#0f172a",
+              value: "#e8f2fc",
 
             },
 
@@ -202,7 +202,7 @@ function Login() {
 
             color: {
 
-              value: "#ffffff",
+              value: "#64748b",
 
             },
 
@@ -210,7 +210,7 @@ function Login() {
 
             links: {
 
-              color: "#ffffff",
+              color: "#64748b",
 
               distance: 150,
 

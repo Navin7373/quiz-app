@@ -4,6 +4,7 @@
   "scripts": {
     "dev": "npm run dev --prefix quiz-app",
     "build": "npm run build --prefix quiz-app",
-    "preview": "npm run preview --prefix quiz-app"
+    "preview": "npm run preview --prefix quiz-app",
+    "postinstall": "npm install --prefix quiz-app"
   }
 }
