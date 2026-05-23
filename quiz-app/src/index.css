@@ -190,9 +190,9 @@ body{
   justify-content:center;
   align-items:center;
 
-  background:#0f172a;
+  background:#e8f2fc;
 
-  color:white;
+  color:#0f172a;
 }
 
 
@@ -206,22 +206,26 @@ body{
 
   padding:40px;
 
-  background:#1e293b;
+  background:white;
 
-  border-radius:16px;
+  border-radius:20px;
 
   text-align:center;
 
-  box-shadow:0 0 20px rgba(0,0,0,0.3);
+  box-shadow:0 0 30px rgba(0,0,0,0.1);
 }
 
 
 
 /* QUESTION TITLE */
 
-.question-box h1{
+.question-box h1,
+.question-box h2,
+.result-box h1{
 
   margin:20px 0;
+
+  color:#0f172a;
 }
 
 
@@ -333,7 +337,9 @@ body{
 
 .score-card h2{
 
-  background:#334155;
+  background:#e8f2fc;
+
+  color:#0f172a;
 
   padding:15px;
 
