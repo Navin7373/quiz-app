@@ -1,0 +1,6 @@
+{
+  "installCommand": "cd quiz-app && npm install",
+  "buildCommand": "cd quiz-app && npm run build",
+  "outputDirectory": "quiz-app/dist",
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+}
