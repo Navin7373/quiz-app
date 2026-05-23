@@ -16,8 +16,7 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.6.0",
-    "tsparticles": "^3.8.1",
-    "tsparticles-slim": "^3.8.1"
+    "tsparticles": "^3.8.1"
   },
 
   "devDependencies": {
