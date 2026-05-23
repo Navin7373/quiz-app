@@ -88,7 +88,9 @@ function Quiz() {
 
   // HANDLE ANSWER
 
-  const handleAnswer = (selectedOption) => {
+  const handleAnswer = (selectedOption, e) => {
+
+    e.currentTarget.blur();
 
     const correctAnswer =
       questions[currentQuestion].answer;
@@ -202,9 +204,10 @@ function Quiz() {
               (option, index) => (
 
                 <button
-                  key={index}
-                  onClick={() =>
-                    handleAnswer(option)
+                  key={`${currentQuestion}-${index}`}
+                  type="button"
+                  onClick={(e) =>
+                    handleAnswer(option, e)
                   }
                 >
                   {option}

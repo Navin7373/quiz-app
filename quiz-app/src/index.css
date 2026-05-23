@@ -251,25 +251,47 @@ body{
 
   cursor:pointer;
 
-  background:white;
+  background:#94a3b8;
+
+  color:#0f172a;
 
   font-size:16px;
 
   transition:0.3s;
+
+  -webkit-tap-highlight-color:transparent;
 }
 
 
 
-/* OPTION HOVER */
+/* OPTION HOVER (desktop only — avoids sticky blue on mobile tap) */
 
-.options button:hover{
+@media (hover: hover) and (pointer: fine){
 
-  background:#38bdf8;
+  .options button:hover{
 
-  color:white;
+    background:#38bdf8;
 
-  transform:scale(1.02);
+    color:white;
+
+    transform:scale(1.02);
+
+  }
+
 }
+
+
+
+.options button:focus{
+
+  outline:none;
+
+  background:#94a3b8;
+
+  color:#0f172a;
+
+}
+
 
 
 
